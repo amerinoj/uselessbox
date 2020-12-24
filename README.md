@@ -9,7 +9,7 @@ Proyecto original de Daniele Tartaglia
 https://www.labdomotic.com/2017/10/24/youtube-useless-box-fai-da-te/
 
 Añadidas funciones:
-Ahorro de energia
+Ahorro de energía
 Audio
 Iluminación.
 Vibrador
@@ -25,7 +25,7 @@ SPI.h
 TMRpcm.h
 ServoTimer2.h
 
-Esquemas eletronicos en /scheme/
+Esquemas electrónicos en /scheme/
 ![alt text](https://github.com/amerinoj/uselessbox/blob/main/scheme/Global.png)
 
 
