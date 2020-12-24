@@ -28,7 +28,7 @@ SPI.h
 TMRpcm.h  
 ServoTimer2.h  
 
-Esquemas electrónicos en /scheme/
+Esquemas electrónicos en https://github.com/amerinoj/uselessbox/tree/main/scheme  
 ![alt text](https://github.com/amerinoj/uselessbox/blob/main/scheme/Global.png)
 
 
