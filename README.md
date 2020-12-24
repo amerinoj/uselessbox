@@ -22,10 +22,10 @@ Librerias:
 sleep.h
 SD.h
 SPI.h
-MRpcm.h
+TMRpcm.h
 ServoTimer2.h
 
 Esquemas eletronicos en /scheme/
-
+![alt text](https://github.com/amerinoj/uselessbox/blob/main/scheme/Global.png)
 
 
