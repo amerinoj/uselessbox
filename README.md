@@ -5,10 +5,13 @@ Uselessbox - Arduino Uno
 
 # Descripción
 Uselessbox con Arduino Uno
+
 Proyecto original de Daniele Tartaglia
+
 https://www.labdomotic.com/2017/10/24/youtube-useless-box-fai-da-te/
 
 Añadidas funciones:
+
 Ahorro de energía
 Audio
 Iluminación.
