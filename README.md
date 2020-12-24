@@ -4,29 +4,24 @@ Uselessbox - Arduino Uno
 ![alt text](https://github.com/amerinoj/uselessbox/blob/main/imagen/main.png)
 
 # Descripción
-Uselessbox con Arduino Uno
+Uselessbox con Arduino Uno 
 
 Proyecto original de Daniele Tartaglia
 
 https://www.labdomotic.com/2017/10/24/youtube-useless-box-fai-da-te/
 
-Añadidas funciones:
-
-Ahorro de energía
-
-Audio
-
-Iluminación.
-
-Vibrador
-
-Modo Terror
+Añadidas funciones:  
+Ahorro de energía  
+Audio  
+Iluminación  
+Vibrador  
+Modo Terror 
 
 
 # Instalación.
 Uselessbox.ino
 
-Librerias:
+Librerias:  
 sleep.h  
 SD.h  
 SPI.h  
