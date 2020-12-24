@@ -27,11 +27,11 @@ Modo Terror
 Uselessbox.ino
 
 Librerias:
-sleep.h \n
-SD.h
-SPI.h
-TMRpcm.h
-ServoTimer2.h
+sleep.h  
+SD.h  
+SPI.h  
+TMRpcm.h  
+ServoTimer2.h  
 
 Esquemas electrónicos en /scheme/
 ![alt text](https://github.com/amerinoj/uselessbox/blob/main/scheme/Global.png)
