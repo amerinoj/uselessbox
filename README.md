@@ -13,16 +13,21 @@ https://www.labdomotic.com/2017/10/24/youtube-useless-box-fai-da-te/
 Añadidas funciones:
 
 Ahorro de energía
+
 Audio
+
 Iluminación.
+
 Vibrador
+
 Modo Terror
+
 
 # Instalación.
 Uselessbox.ino
 
 Librerias:
-sleep.h
+sleep.h \n
 SD.h
 SPI.h
 TMRpcm.h
