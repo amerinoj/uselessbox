@@ -1,7 +1,7 @@
 # uselessbox
 Uselessbox - Arduino Uno 
 -------
-![alt text](https://github.com/amerinoj/uselessbox/blob/master/imagen/main.png?raw=true)
+![alt text](https://github.com/amerinoj/uselessbox/blob/master/imagen/main.png)
 
 # Descripción
 Uselessbox con Arduino Uno
