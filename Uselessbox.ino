@@ -1,10 +1,4 @@
 
-
-
-
-/* www.labdomotic.com
-  Youtube channel TARTAGLIA DANIELE
-*/
 #include "uselessbox.h"
 
 bool Init_SD(void)
@@ -48,9 +42,9 @@ void  Meneo(void) {
   for (int i = 0; i < 3; i++)
   {
     analogWrite(MotorShake , LOW);    // Apagar
-    delay(600);
+    delay(500);
     analogWrite(MotorShake , shakespeed );    // Activar a la mitad de revoluciones
-    delay(300);
+    delay(600);
   }
   analogWrite(MotorShake , LOW);    // Apagar
   return;
@@ -71,7 +65,7 @@ void OutSleep(void)
   Serial.write("Sleep mode OFF\n");
   sleep_disable();
   detachInterrupt(digitalPinToInterrupt(InterruptorPuerta));
-
+  randomSeed(analogRead(0));
 
 }
 void EnterSleep(void)
@@ -593,7 +587,7 @@ void loop()
         delay(0.5);
       }
       WriteServoHand(HandPut);
-      delay(300);
+      delay(305);
       WriteServoHand(HandRemove);
       delay(30);
       WriteServoBox(BoxClose);
@@ -1041,10 +1035,10 @@ void loop()
 
         }
         if (Terror == LOW) {
-            digitalWrite(LedRJ , HIGH );
-          } else {
-            digitalWrite(LedBL , HIGH );
-          }
+          digitalWrite(LedRJ , HIGH );
+        } else {
+          digitalWrite(LedBL , HIGH );
+        }
         Fix_Servo();
         delay(2000);
         digitalWrite(LedBL , LOW);
@@ -1070,8 +1064,8 @@ void loop()
 
 
     }
+
     DefaultOuput();
-    randomSeed(analogRead(0));
     action = random(1, 17);
     countLoops = 0 ;
   }
